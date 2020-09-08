@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    src: url('fonts/WorkSans-Regular.ttf'); /* IE9 Compat Modes */
+  }
+
+  @font-face {
+    font-family: 'Work Sans Semi Bold';
+    font-weight: 400;
+    src: url('fonts/WorkSans-SemiBold.ttf'); /* IE9 Compat Modes */
+  }
+
+#location{
+  -webkit-appearance:none;
+  border-right:0.5px solid #a1a1a1;
+  margin-top: 1px;
+}
+.cont {
+    position: relative;
+    text-align: center;
+}
+
+.f_r{
+    font-family: 'Work Sans';
+}
+
+.f_sb{
+    font-family: 'Work Sans Semi Bold';
+}
+.button-green{
+    background-color: #6d9773;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+}
+
+.button-green:hover{
+    background-color: white;
+    color: #6d9773;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    text-align: left !important;
+    transform: translate(-50%, -50%);
+  }
+  .center {
+    position: absolute;
+    top: 83%;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.padd{
+    padding : 0px 144px;
+}
+  .trivia{
+      background-color: #b4c0ac;
+      border-radius: 20px;
+  }
+.example{
+    -webkit-box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+}
+
+/* Style the select field */
+form.example select {
+    padding: 11.5px;
+    font-size: 15px;
+    float: left;
+    width: 40%;
+    background: none;
+    border: none;
+    
+
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 15px;
+    border:none;
+    float: left;
+    width: 50%;
+    background: none;
+    border-left: none; /* Prevent double borders */
+
+
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #6d9773;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    font-size: 17px;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border:none;
+  }
+  
+  form.example button:hover {
+    background: #ffba00;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+@media only screen and (max-width: 600px) {
+    .imgRight{
+      display: none
+    }
+    .greenBox{
+      padding:20px !important
+    }
+    #jarakAtas{
+      padding-top: 30px !important;
+    }
+    .greenInsideBox{
+      max-height: 1000px !important  ;
+    }
+    .rtab{
+      padding-left: 0px !important;
+    }
+  }
+
+
+
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after
+  {
+    content: '>';
+    font-size: 55px;
+    color: #EA851A;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #EA851A;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td{
+    padding:5px;
+    margin-bottom: 0px !important;
+    }
+
+  table.centerTable  {
+    margin-left:auto; 
+    margin-right:auto;
+    
+  }
+  .card-body{
+    padding: 1rem !important
+  }
+  .rating{
+    background-color: #FFBA00;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+  }
+  */
+
+input[type="date"]
+{
+    display:block;
+  
+    /* Solution 1 */
+     -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em; 
+  
+    /* Solution 2 */
+    /* min-width: 96%; */
+}

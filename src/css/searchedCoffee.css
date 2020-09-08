@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    src: url('fonts/WorkSans-Regular.ttf'); /* IE9 Compat Modes */
+  }
+
+  @font-face {
+    font-family: 'Work Sans Semi Bold';
+    font-weight: 400;
+    src: url('fonts/WorkSans-SemiBold.ttf'); /* IE9 Compat Modes */
+  }
+
+.coffeeCard{
+  -webkit-box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+  border-radius: 40px;
+}
+.cont {
+    position: relative;
+    text-align: center;
+}
+
+.f_r{
+    font-family: 'Work Sans';
+}
+
+.f_sb{
+    font-family: 'Work Sans Semi Bold';
+}
+.button-green{
+    background-color: #6d9773;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+}
+
+.button-green:hover{
+    background-color: white;
+    color: #6d9773;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    text-align: left !important;
+    transform: translate(-50%, -50%);
+  }
+  .center {
+    position: absolute;
+    top: 83%;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.example{
+    -webkit-box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+}
+
+
+.padd2{
+  padding : 0% 20% !important;
+}
+
+@media only screen and (max-width: 600px) {
+.btn-filter{
+  width: 100%;
+  margin-top: 10px;
+}
+.coffeeImg{
+  display: none
+}
+.cardC{
+    margin-top: 20px !important;
+}
+#address{
+  text-align: left !important;
+  padding: 0px !important;
+}
+
+.padd2{
+  padding : 0% 5% !important;
+}
+  }
+
+
+
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after
+  {
+    content: '>';
+    font-size: 55px;
+    color: #EA851A;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #EA851A;
+  }
+
+  .card-body{
+    padding: 1rem !important
+  }
+  .rating{
+    background-color: #FFBA00;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+  }

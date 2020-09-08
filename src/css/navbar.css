@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    src: url('fonts/WorkSans-Regular.ttf'); /* IE9 Compat Modes */
+    
+  }
+
+
+.navbar{
+    background-color: #0c3b2e !important;
+    padding: 15px 0px;
+    font-size: 14px;
+    font-family: 'Work Sans';
+
+    
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #ffba00 !important;
+}
+
+#prof_nav   {
+  color: white;
+  text-decoration: none;
+  padding-left:20px;
+
+}
+#prof_nav:hover {
+  color: #ffba00 !important;
+}
+
+.button-yellow{
+    background-color: #ffba00;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+}
+
+.button-yellow:hover{
+    background-color: white;
+    color: #ffba00;
+}
+
+@media only screen and (max-width: 600px) {
+    .container img{
+        width: 35% !important;
+    }
+    .navbar{
+        padding: 20px 40px;
+    }
+    .signInBtn{
+        width: 25%;
+    }
+    .overlay{
+        margin-top: -90% !important;
+    }
+    .popup{
+        width: 80% !important;
+
+    }
+  }
+
+
+  .overlay {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: -20%;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 450px auto;
+  padding: 20px;
+  background: #0c3b2e;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+    
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white    ;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }

@@ -1,0 +1,375 @@
+@font-face {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    src: url('fonts/WorkSans-Regular.ttf'); /* IE9 Compat Modes */
+  }
+
+  @font-face {
+    font-family: 'Work Sans Semi Bold';
+    font-weight: 400;
+    src: url('fonts/WorkSans-SemiBold.ttf'); /* IE9 Compat Modes */
+  }
+
+#location{
+  -webkit-appearance:none;
+  border-right:0.5px solid #a1a1a1;
+  margin-top: 1px;
+}
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot{
+  padding-right: 0px !important;
+}
+.cont {
+    position: relative;
+    text-align: center;
+}
+
+.f_r{
+    font-family: 'Work Sans';
+}
+
+.f_sb{
+    font-family: 'Work Sans Semi Bold';
+}
+.button-green{
+    background-color: #6d9773;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+}
+
+.button-green:hover{
+    background-color: white;
+    color: #6d9773;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    text-align: left !important;
+    transform: translate(-50%, -50%);
+  }
+
+  .centeredMobile {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    text-align: left !important;
+    transform: translate(-50%, -50%);
+  }
+  .center {
+    position: absolute;
+    top: 83%;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.padd{
+    padding : 0px 144px;
+}
+
+  .trivia{
+      background-color: #b4c0ac;
+      border-radius: 20px;
+  }
+.example{
+    -webkit-box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 46px -19px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+
+/* Style the select field */
+form.example select {
+    padding: 11.5px;
+    font-size: 15px;
+    float: left;
+    width: 40%;
+    background: none;
+    border: none;
+    
+
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 15px;
+    border:none;
+    width: 100% !important;
+    background: none;
+    border-left: none; /* Prevent double borders */
+    max-width: 100%;
+
+
+  }
+
+  /* Style the submit button */
+  form.example button {
+    float: right;
+    padding: 10px;
+    background: #6d9773;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    font-size: 17px;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border:none;
+  }
+  
+  form.example button:hover {
+    background: #ffba00;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .faMobile{
+    display: none;
+  }
+  .caMobile{
+    display: none;
+  }
+  .mobileTop{
+    display: none;
+  }
+  .mobileDetail{
+    display: none
+  }
+  
+@media only screen and (max-width: 600px) {
+  .mobile-article-card{
+    height: 350px !important;
+  }
+  .mobileDetail{
+    display: block !important
+  }
+  .relatedListing{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .desktopDetail{
+    display: none !important
+  }
+  .mobileTop{
+    display: block !important;  
+  }
+    .topHome{
+      display: none;
+    }
+    .padd{
+      padding:0px 20px !important
+    }
+    .trivword{
+      padding:30px !important
+    }
+    .coffeeArticles{
+      margin-top: 30px;
+    }
+    .caDesktop{
+      display: none;
+    }
+    .caMobile{
+      display: block !important;
+    }
+    .faDesktop{
+      display: none;
+    }
+    .faMobile{
+      display: block !important;
+    }
+    .footerPadding{
+      padding:70px 40px !important
+    }
+    /*modal popup for menu*/
+    .modal-content {
+      width: 100%;
+    }
+
+    .left{
+      display: none;
+    }
+    .right{
+      padding-left: 0px !important;
+    }
+    .updateBtn{
+      width: 100% !important;
+    }
+  }
+
+
+
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after
+  {
+    content: '>';
+    font-size: 55px;
+    color: #EA851A;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #EA851A;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td{
+    padding:5px;
+    margin-bottom: 0px !important;
+    }
+
+  table.centerTable  {
+    margin-left:auto; 
+    margin-right:auto;
+    
+  }
+  .card-body{
+    padding: 1rem !important
+  }
+  .rating{
+    background-color: #FFBA00;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+  }
+
+
+
+  /* MODAL CSS FOR MENU POPUP*/
+  /* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.line-clamp{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden
+}
+
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9; 
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+.MuiAutocomplete-endAdornment{
+  display: none !important;
+}
